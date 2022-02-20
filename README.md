@@ -25,4 +25,4 @@ Log Files are automatically created in the home directory
 - Opening using vim: `vim /home/username/expo-Net-logs.txt`
 
 
-> *Program tested on: Ubuntu 20.04, Ubuntu 21.10*
+> *Program tested on: Ubuntu 20.04lts, Ubuntu 20.10, Ubuntu 21.04, Ubuntu 21.10*
