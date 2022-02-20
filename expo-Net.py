@@ -52,14 +52,14 @@ speed = 0
 e2 = 0
 lim = 0
 iA = 0
-file = open('expo_Networking_logs.txt', 'w')
+file = open('expo-Net-logs.txt', 'w')
 file.write("")
 file.close()
 while True:
 
     if connect() == False:
         now = datetime.now()
-        file = open('expo_Networking_logs.txt', 'a')
+        file = open('expo-Net-logs.txt', 'a')
         file.write(now.strftime("\n %d/%m/%Y %H:%M:%S"))
         if internet() == True:
             file.write(" Error_1 !!")
@@ -73,7 +73,7 @@ while True:
             file.close()
 
             if lim >= 5:
-                file = open('expo_Networking_logs.txt', 'a')
+                file = open('expo-Net-logs.txt', 'a')
                 file.write(now.strftime("\n %d/%m/%Y %H:%M:%S"))
                 file.write(" Error_2 !!")
                 file.close()
@@ -86,7 +86,7 @@ while True:
                 t.sleep(1)
                 os.system("sudo nmcli networking on")
                 lim += 1
-                file = open('expo_Networking_logs.txt', 'a')
+                file = open('expo-Net-logs.txt', 'a')
                 file.write(now.strftime("\n %d/%m/%Y %H:%M:%S"))
                 file.write(" Reconneting...")
                 file.close()
@@ -97,7 +97,7 @@ while True:
         lim = 0
         e2 = 0
         now = datetime.now()
-        file = open('expo_Networking_logs.txt', 'a')
+        file = open('expo-Net-logs.txt', 'a')
         file.write(now.strftime("\n %d/%m/%Y %H:%M:%S"))
         if internet() == True:
             iA += 1
