@@ -1,5 +1,7 @@
 import os
-from gi.repository import Notify, GdkPixbuf
+import pgi
+pgi.require_version("Notify", "0.7")
+from pgi.repository import Notify, GdkPixbuf
 import speedtest
 import netifaces
 from datetime import datetime
@@ -25,7 +27,7 @@ def connect():
         return True
     except:
         return False
-
+    
 
 def internet(host='https://fast.com/'):
     try:
@@ -79,6 +81,7 @@ while True:
                 file.close()
                 msg = "Error in Connecting...retrying in 60s"
                 notify()
+                lim = 0
 
                 t.sleep(60)
             else:
