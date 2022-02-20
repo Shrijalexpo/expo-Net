@@ -1,5 +1,5 @@
-# expo-Net
-This program fixes the Wifi not connecting problem in all linux distributions.
+# What is This?
+expo-Net is a program that fixes your Wifi not connecting problem in all linux distributions.
 It is built-in with -
 
 - auto wifi restart module
@@ -7,6 +7,7 @@ It is built-in with -
 - speedtester
 
 It informs you about your wifi conditions in the log files geneerated by the program
+It also sends you notification when your network speed is less
 
 ## Install
 
