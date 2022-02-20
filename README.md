@@ -9,19 +9,20 @@ It is built-in with -
 It informs you about your wifi conditions in the log files geneerated by the program
 It also sends you notification when your network speed is less
 
-## Install
+## How to Install
 
 - Clone this repositry: `git clone https://github.com/Shrijalexpo/expo-Net.git`
 - Go to expo-Net Directory: `cd expo-Net`
 - Install requirements.txt: `pip install requirement_expoNet.txt`
 
-## Run
+## How to use
 - Run the program as sudo: `sudo python3 expo-Net.py`
 - Enter your Credentials
 
-## You can view Log Files in Home Directory
+## Viewing Log Files
+Log Files are automatically created in the home directory
 - Open log files: `less /home/username/expo-Net-logs.txt`
-- Using vim: `vim /home/username/expo-Net-logs.txt`
+- Opening using vim: `vim /home/username/expo-Net-logs.txt`
 
 
 > *Program tested on: Ubuntu 20.04, Ubuntu 21.10*
