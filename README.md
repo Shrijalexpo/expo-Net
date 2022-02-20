@@ -24,4 +24,4 @@ It also sends you notification when your network speed is less
 - Using vim: `vim /home/username/expo-Net-logs.txt`
 
 
-*Program tested on: Ubuntu 20.04, Ubuntu 21.10*
+> *Program tested on: Ubuntu 20.04, Ubuntu 21.10*
