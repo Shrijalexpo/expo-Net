@@ -21,3 +21,6 @@ It informs you about your wifi conditions in the log files geneerated by the pro
 ## You can view Log Files in Home Directory
 - Open log files: `less /home/username/expo-Net-logs.txt`
 - Using vim: `vim /home/username/expo-Net-logs.txt`
+
+
+*Program tested on: Ubuntu 20.04, Ubuntu 21.10*
